@@ -134,13 +134,16 @@ Pour pouvoir gérer le cluster, on va utiliser une interace graphique, `elastics
 [elasticsearch-head sur github](https://github.com/mobz/elasticsearch-head#running-with-built-in-server)
 
 1. Installez nodejs
-   ![1](./screeshots/head-1.JPG)
+
+![1](./screeshots/head-1.JPG)
 
 2. Installez npm
-   ![1](./screeshots/head-2.JPG)
+
+![1](./screeshots/head-2.JPG)
 
 3. Installez Verifier votre installation
-   ![1](./screeshots/head-3.JPG)
+
+![1](./screeshots/head-3.JPG)
 
 4. Faire `clone` via `git` du 'repository' : `https://github.com/mobz/elasticsearch-head#running-with-built-in-server`
 
@@ -181,4 +184,4 @@ http.cors.allow-origin: "*"
 
 ![1](./screeshots/head-12.JPG)
 
-###### FIN installation
+==FIN installation==
