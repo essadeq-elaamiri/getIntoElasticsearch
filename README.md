@@ -127,4 +127,58 @@ sudo apt install curl
 Maintenant, Elasticsearch est bien installé.
 Pour pouvoir gérer le cluster, on va utiliser une interace graphique, `elasticsearch-head`.
 
-### Installation _elasticsearch-head_
+### Installation _elasticsearch-head_ (Optionnel)
+
+`elasticsearch-head` est 'front-end' (une interface) faite pour gérer, visualiser, et passer des requêtes à elasticsearch.
+
+[elasticsearch-head sur github](https://github.com/mobz/elasticsearch-head#running-with-built-in-server)
+
+1. Installez nodejs
+   ![1](./screeshots/head-1.JPG)
+
+2. Installez npm
+   ![1](./screeshots/head-2.JPG)
+
+3. Installez Verifier votre installation
+   ![1](./screeshots/head-3.JPG)
+
+4. Faire `clone` via `git` du 'repository' : `https://github.com/mobz/elasticsearch-head#running-with-built-in-server`
+
+![1](./screeshots/head-4.JPG)
+
+5. Vous deplacez vers le dossier `elasticsearch-head`, et executer `npm install`
+
+![1](./screeshots/head-5.JPG)
+
+6. Lancez le serveur nodejs
+
+![1](./screeshots/head-6.JPG)
+
+7. N'oubliez pas de lancer elasticsearch
+
+![1](./screeshots/head-7.JPG)
+
+8. Visitez l'adresse ` http://localhost:9100/` sur votre navigateur.
+
+![1](./screeshots/head-8.JPG)
+
+9. Vous pouvez observer que on peut pas connecter au cluster via 'elasticseach-head', on peut régler ce problème on ajoutant les propiétés suivantes au fichier `elasticsearch.yml`.
+
+```yml
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+```
+
+![1](./screeshots/head-10.JPG)
+
+![1](./screeshots/head-9.JPG)
+
+10. Et voilà on est connecter à notre cluster
+
+![1](./screeshots/head-11.JPG)
+
+11. Voici les inormations de notres cluster
+
+![1](./screeshots/head-12.JPG)
+
+###### FIN installation
