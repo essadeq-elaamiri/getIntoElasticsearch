@@ -12,9 +12,9 @@ La première version a été mise à disposition du public en février 2010. Dep
 
 La configuration de mon système:
 
-> OS: Linux Ubuntu 18.04.1 LTS
-> RAM: 2.5 Go
-> Disque: 21.0 Go
+| OS                       | RAM    | Disque  |
+| ------------------------ | ------ | ------- |
+| Linux Ubuntu 18.04.1 LTS | 2.5 Go | 21.0 Go |
 
 1. Vérifier la versions de Java
 
