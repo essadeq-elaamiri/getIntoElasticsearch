@@ -1,7 +1,8 @@
 ## Elasticseach, les conceptes
 
 [:arrow_left: Revenir à l'installation](./README.md)
-<i>**Elasticsearch ?**</i>
+
+#### Elasticsearch ?
 
 <p>
 Elasticsearch est un moteur de recherche et d'analyse distribué et open-source basé sur Apache Lucene et développé en Java. Elasticsearch vous permet de stocker, de rechercher et d'analyser d'énormes volumes de données rapidement et en temps quasi réel, et de fournir des réponses en quelques millisecondes. Il est capable d'obtenir des réponses de recherche rapides parce qu'au lieu de rechercher le texte directement, il recherche dans un index. Il utilise une structure basée sur des documents plutôt que sur des tables et des schémas, et est fourni avec des API REST étendues pour le stockage et la recherche de données. Au fond, Elasticsearch est un serveur capable de traiter des requêtes JSON et de vous renvoyer des données JSON.
@@ -13,7 +14,7 @@ Elasticsearch est un moteur de recherche et d'analyse distribué et open-source 
 Pour mieux comprendre le fonctionnement d'Elasticsearch, nous allons aborder quelques concepts de base sur la façon dont il organise les données et ses composants back-end.
 </p>
 
-##### Les conceptes logiques
+#### Les conceptes logiques
 
 1. **Les documents (Documents).**
 <p>
@@ -32,7 +33,7 @@ C'est le mécanisme par lequel tous les moteurs de recherche fonctionnent. Il s'
 
 ![fff](./screeshots/concept-1.png)
 
-##### Les composants backend
+#### Les composants backend
 
 1. **Cluster**
 
