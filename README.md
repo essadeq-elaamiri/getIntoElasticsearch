@@ -1,5 +1,7 @@
 # getIntoElasticsearch
 
+## Installation
+
 **French version** (English version is comming soon)
 
 ElasticSearch est un projet open source développé en Java sous licence Apache2. Le projet a été présenté par son créateur, Shay Banon, comme le successeur du framework Compass (un framework de mapping objet/moteur de recherche partageant des similitudes avec Hibernate Search).
@@ -186,4 +188,4 @@ http.cors.allow-origin: "*"
 
 ==FIN installation==
 
-### Next Section [Elasticseach concepts]()
+### Next Section: [Elasticseach concepts :arrow_right:](./concepts.md)
