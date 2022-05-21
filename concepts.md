@@ -4,6 +4,8 @@
 
 #### Elasticsearch ?
 
+![](https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png)
+
 <p>
 Elasticsearch est un moteur de recherche et d'analyse distribué et open-source basé sur Apache Lucene et développé en Java. Elasticsearch vous permet de stocker, de rechercher et d'analyser d'énormes volumes de données rapidement et en temps quasi réel, et de fournir des réponses en quelques millisecondes. Il est capable d'obtenir des réponses de recherche rapides parce qu'au lieu de rechercher le texte directement, il recherche dans un index. Il utilise une structure basée sur des documents plutôt que sur des tables et des schémas, et est fourni avec des API REST étendues pour le stockage et la recherche de données. Au fond, Elasticsearch est un serveur capable de traiter des requêtes JSON et de vous renvoyer des données JSON.
 </p>
@@ -70,9 +72,33 @@ Elasticsearch nous permet de faire une ou plusieurs copies des shards de notre i
 
 Elastic Slack est un écosystème complet d’outils open-source pour l’ingestion, l’enrichissement, le stockage, l’analyse et la visualisation de données. Outre Elasticsearch, les autres logiciels sont Logstash, Kibana et Beats.
 
-// à faire
+![](https://www.bujarra.com/wp-content/uploads/2018/11/ELK-1.png)
 
-- [ ] Définitions (Logstash, Kibana et Beats)
+**Logstash**
+
+![](https://user-images.githubusercontent.com/567298/59528577-f96c0280-8ede-11e9-8204-121281a96177.png)
+
+C’est une solution open source de traitement de données et de logs côté serveur.
+Elle peut recueillir des données provenant d’une multitude de sources pour les analyser, les filtrer, les transformer, les enrichir, et enfin les transmettre à un autre système pour traitements additionnels ou stockage. Il est généralement utilisé comme un moteur de traitement polyvalent, permettant de s’intégrer à d’autres solutions et applications.
+
+**Kibana**
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApPXMWOKwNgyZV7chUreQN4NKOMSoIUO9k5SAk_zSohYAfX2dZf4vox9G9qBr6GM2YHQ&usqp=CAU)
+
+Kibana est un outil open source de visualisation de données pour le moteur d’indexation ElasticSearch. Il permet de mettre en forme les données dans des tableaux de bord interactifs.
+
+**Beats**
+
+![](https://www.plutora.com/wp-content/uploads/2018/11/beats.jpg)
+
+Les beats sont essentiellement des agents légers installés sur des hôtes pour collecter divers types de données à transférer ensuite à Elasticsearch.
+
+##### Principaux cas d'utilisation de ELK stack
+
+• Recherche dans les applications
+• Recherche sur site Web à l’aide de l’indexation
+• Analyse de la sécurité (Security analytics)(Gestion et control des logs)
+• Business analytics
 
 [:arrow_left: Revenir à l'installation](./README.md)
 
