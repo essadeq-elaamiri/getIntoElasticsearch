@@ -171,9 +171,46 @@ Pendant l'insertion du mappage, s'il existe un mappage existant pour ce type, il
 Il n'existe pas d'opération de suppression pour les mappings. Il n'est pas possible de supprimer un seul mapping d'un index. Pour supprimer ou modifier un mapping, vous devez gérer les étapes suivantes :
 
 1. Créer un nouvel index avec le mapping nouveau/modifié.
-2. Réindexer tous les enregistrements
-3. Supprimer l'ancien index avec le mapping incorrect
+2. Réindexer tous les enregistrements.
+3. Supprimer l'ancien index avec le mapping incorrect.
+
+**Obtenir le mapping**
+L'action d'obtenir le mapping d'un type nous aide à comprendre la structure ou son évolution en raison d'une fusion et d'une supposition implicite du type.
+
+Pour obtenir un mapping à partir du type d'un index, nous allons effectuer les étapes suivantes :
+
+```bash
+curl -XGET 'http://localhost:9200/bdcc_index1/order/_mapping?pretty=true'
+
+```
+
+:exclamation: L'argument "pretty" dans l'URL est facultatif, mais très pratique pour imprimer la réponse.
+
+Resultat:
+
+![]()
+
+Elasticsearch ne stocke que les valeurs des champs par défaut afin de réduire la consommation de réseau et de mémoire.
+
+Les formats d'URL pour obtenir les mappings sont :
+
+Au niveau cluster: `http://<server>/_mapping`
+Au niveau index: `http://<server>/<index_name>/_mapping`
+Au niveau mapping: `http://<server>/<index_name>/<type_name>/_mapping`
+
+Si vous devez récupérer plusieurs mappings, il est préférable de le faire au niveau de l'index ou du cluster pour réduire le nombre d'appels d'API.
 
 [:arrow_left: Revenir au concepts](./README.md)
+
+**Lien utils:**
+
+- https://hub.packtpub.com/elastic-stack-overview/
+- https://www.tutorialspoint.com/elasticsearch/index.htm
+
+// to do
+
+- [ ] Inserting data
+- [ ] Search
+- [ ] Aggregations ..
 
 ### Next Section: [Comming soon:arrow_right:](./concepts.md)
